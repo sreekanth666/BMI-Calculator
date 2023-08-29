@@ -1,11 +1,13 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+@media (max-width: 768px) {
+    body {
+        background-color: #0d111a;
+    }
+}
 .main-card {
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .bmi-card {
     background-color: #0d111a;
@@ -13,6 +15,15 @@
     width: fit-content;
     border-radius: 22px;
     padding: 2rem;
+    margin-top: 2rem;
+}
+.suggestion-card {
+    background-color: #0d111a;
+    color: white;
+    border-radius: 22px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    display: none;
 }
 .head {
     font-size: xx-large;
@@ -47,4 +58,12 @@ input {
 }
 p {
     margin: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#downArrow {
+    color: #727272;
+    display: none;
 }
