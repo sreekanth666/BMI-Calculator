@@ -1,0 +1,50 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.main-card {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bmi-card {
+    background-color: #0d111a;
+    color: white;
+    width: fit-content;
+    border-radius: 22px;
+    padding: 2rem;
+}
+.head {
+    font-size: xx-large;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+input {
+    height: 3rem;
+    border-radius: 10px;
+    border: 0px;
+    padding: 0.5rem;
+    width: 100%
+}
+.btn {
+    width: 100%;
+    margin: 1rem 0;
+    background-color: #f3ffa1;
+    border: 0;
+    color: #0d111a;
+    font-weight: 500;
+}
+.result {
+    min-height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #b377f0;
+    border-radius: 22px;
+}
+#bmiValue {
+    font-size: xx-large;
+}
+p {
+    margin: 0;
+}
